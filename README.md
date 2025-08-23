@@ -77,33 +77,14 @@ This application uses the [GitHub REST API](https://docs.github.com/en/rest) to 
 ```
 GitView/
 ├── public/
-│   └── index.html
-├── screenshots/
-│   ├── desktop-view.png
-│   ├── mobile-view.png
-│   ├── search-feature.png
-│   └── video-thumbnail.png
-├── demo/
-│   └── gitview-demo.mp4
+│   └── screenshots/
+│     ├── desktop-view.png
+│     ├── mobile-view.png
+│     ├── search-feature.png
+│     ├── video-thumbnail.png
+|     └── favicon.png
 ├── src/
-│   ├── components/
-│   │   ├── Header/
-│   │   ├── SearchBar/
-│   │   ├── RepositoryCard/
-│   │   ├── UserProfile/
-│   │   └── FilterPanel/
-│   ├── pages/
-│   │   ├── Home/
-│   │   ├── Repository/
-│   │   ├── User/
-│   │   └── Search/
-│   ├── services/
-│   │   └── githubApi.js
-│   ├── hooks/
-│   │   ├── useGitHub.js
-│   │   └── useDebounce.js
-│   ├── styles/
-│   │   └── index.css
+|   ├── index.css
 │   ├── App.jsx
 │   └── main.jsx
 ├── tailwind.config.js
